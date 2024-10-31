@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Noto+Kufi+Arabic:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <style>   
+    ::placeholder{
+        color: rgb(17, 56, 20);
+    }
+    </style>
+    <title>Registration form</title>
+    
+</head>
+
+<body style="background-color: rgb(127, 127, 127);">
+    <header class="header">
+        <div class="left-sec"></div>
+        <div class="mid-sec">
+            <p class="head-text">Registration Form</p>
+            <img class="logo" src="icons/harvard-university-logo.png">
+            <p class="head-text">Varhard University</p>
+        </div>
+        <div class="right-sec"></div>
+    </header>
+    <main>
+        <div class="box">
+            <div class="quest">
+                First Name: <input type="text" class="text-answer">
+            </div>
+            <div class="quest">
+                Last Name: <input type="text" class="text-answer">
+            </div>
+            <div class="quest">
+                Phone Number: <input type="text" class="text-answer" placeholder="09xxxxxxxx">
+            </div>
+            <div class="quest">
+                Email: <input type="email" class="text-answer" placeholder="example@example.com">
+            </div>
+            <div class="quest">
+                Country: <input type="text" class="text-answer" placeholder="Syria">
+            </div>
+            <div class="quest">
+                City: <input type="text" class="text-answer" placeholder="Hama - Homs' countryside">
+            </div>
+            <div class="quest">
+                Birth Date: <input type="date" class="text-answer">
+            </div>
+            <div class="quest">
+                Id Number: <input type="text" class="text-answer" placeholder="040xxxxxxxx">
+            </div>
+            <br>
+            <div class="quest">
+                Gender: <input type="radio" name="gender" value="male" checked> Male
+                    <input type="radio" name="gender" value="female"> Female
+                    <input type="radio" name="gender" value="engineer"> Engineer 
+            </div>
+            <div class="quest">
+                English level: <input type="radio" name="en-lvl" value="a1" checked> A1
+                <input type="radio" name="en-lvl" value="a2"> A2
+                <input type="radio" name="en-lvl" value="b1"> B1
+                <input type="radio" name="en-lvl" value="b2"> B2
+                <input type="radio" name="en-lvl" value="c1"> C1
+                <input type="radio" name="en-lvl" value="c2"> C2
+            </div>
+            <div class="quest">
+                <input type="checkbox" class="text-answer"> I can speak Arabic.    
+            </div>
+            <div class="quest">
+                <input type="checkbox" class="text-answer"> I have a passport.    
+            </div>
+        </div>
+        <div class="box">
+            <div class="quest">
+                Exam id: <input type="number" min="1000" max="9999" class="text-answer" placeholder="12345">
+            </div>
+            <div class="quest">
+                Final mark: <input type="number" min="0" max="2400" class="text-answer" placeholder="1440">
+            </div>
+            <div class="quest">
+                Certificate link: <input type="url" placeholder="gov.edu.sy/Certificate/id=3" class="text-answer"> 
+            </div>
+            <div class="quest">
+                College to rigester: <input type="text" placeholder="IT Engineering" class="text-answer">
+            </div>
+            <div class="quest">
+                Scholarship: <input type="radio" name="sclrshp" value="None" checked> None
+                <input type="radio" name="sclrshp" value="assist"> Assist
+                <input type="radio" name="sclrshp" value="just fees"> Just fees
+                <input type="radio" name="sclrshp" value="full"> Full
+            </div>
+            <div class="quest">
+                Resume <input type="file" class="up"> <br/>
+                <span style="font-size: 12px;">*the file you upload should be a pdf</span>
+            </div>
+            <div class="quest">
+                Motivation letter <input type="file" class="up"> <br/>
+                <span style="font-size: 12px;">*the file you upload should be a pdf</span>
+            </div>
+            <div class="quest">
+                Personal photo <input type="file" class="up"> <br/>
+                <span style="font-size: 12px;">*the image you upload should be square</span>
+            </div>
+            <div class="quest">
+                <input type="checkbox"> By rigestering I assure that I have read and accepted the <a href="temporary closed" target="_blank">policies</a> of Varhard University.
+            </div>
+            <div class="quest">
+                Submit your request <input type="submit">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <img src="icons/college-removebg-preview.png" class="icon" alt="">
+            Colleges
+        </div>
+        <div class="container">
+            <img src="icons/cap-removebg-preview.png" class="icon" alt="">
+            Our Purpose
+        </div>
+        <div class="container">
+            <img src="icons/info-removebg-preview.png" class="icon" alt="">
+            About US
+        </div>
+        <div class="container">
+            <img style="margin-top: 13px;" src="icons/telephone-removebg-preview.png" class="icon" alt="">
+            Contact US
+        </div>
+    </footer>
+</body>
+
+</html>
