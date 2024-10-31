@@ -1,0 +1,70 @@
+.header{
+    display: flex;
+    position: fixed;
+    height: 120px;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: rgb(17, 56, 20);
+}
+
+.left-sec{
+flex: 1;
+}
+
+.mid-sec{
+flex:2;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.right-sec{
+    flex: 1;
+}
+
+.head-text{
+    display: inline-block;
+    font-family: 'EB Garamond' ;
+    font-size: 40px;
+    color: white;
+}
+
+.logo{
+    width: 100px;
+}
+
+@media (max-width:675px)
+{
+    .mid-sec{
+        flex: 6;
+    }
+}
+@media (max-width:850px)
+{
+   .head-text{
+    font-size: 20px;
+   } 
+   .logo{
+    width:50px;
+   }
+}
+@media (max-width:1050px) and (min-width:851px)
+{
+   .head-text{
+    font-size: 25px;
+   } 
+   .logo{
+    width:63px;
+   }
+}
+
+@media (min-width:1051px) and (max-width:1380px) 
+{
+   .head-text{
+    font-size: 30px;
+   } 
+   .logo{
+    width:75px;
+   }
+}
